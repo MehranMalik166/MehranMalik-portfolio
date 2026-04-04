@@ -49,7 +49,7 @@ function Contact() {
     setErrors({});
 
     // web3forms fields
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+    formData.append("access_key", "7343ba90-faf0-4bbb-bf11-6c235275c2ff");
     formData.append("h-captcha-response", captchaToken);
 
     try {
