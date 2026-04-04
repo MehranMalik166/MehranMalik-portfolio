@@ -35,7 +35,7 @@ function Contact() {
     payload.append("name", name);
     payload.append("email", email);
     payload.append("message", message);
-    payload.append("subject", "Eliana Jade - New form Submission");
+    payload.append("subject", "Mehran Malik - New form Submission");
     payload.append("h-captcha-response", captchaToken);
 
     try {
@@ -44,7 +44,7 @@ function Contact() {
         body: payload,
       }).then(r => r.json());
 
-      console.log("Web3Forms response:", res); // Debugging
+      console.log("Web3Forms response:", res); 
 
       if (res.success) {
         alert("Message sent successfully ✅");
