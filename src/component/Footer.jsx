@@ -33,7 +33,7 @@ function Footer() {
         <li><a href="https://github.com/MehranMalik166" className='text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200'>GitHub</a></li>
         <li><a href="https://linkedin.com/in/mehran-malik-a386a363" className='text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200'>LinkedIn</a></li>
         <li><a href="" className='text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200'>Naukri</a></li>
-        <li><a href="" className='text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200'>Instagram</a></li>
+        <li><a href="https://www.instagram.com/mehrann.malikk" className='text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200'>Instagram</a></li>
         {/* <li><a href="" className='text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200'></a></li> */}
         
       </ul>
