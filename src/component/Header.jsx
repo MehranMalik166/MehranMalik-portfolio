@@ -24,7 +24,7 @@ text-white flex items-center gap-2 hover:bg-slate-100/70 transition-all duration
     download
     className="px-8 py-3 border border-gray-900 rounded-full hover:scale-105 hover:bg-slate-100/70 dark:hover:bg-darkHover dark:text-white text-black flex items-center gap-6 transition-all duration-300"
 >
-    Resume 👁️
+    Resume    👁️
 </a>
 
             </div>
