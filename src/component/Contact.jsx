@@ -48,15 +48,24 @@ function Contact() {
     // old errors clear ho rhe hai
     setErrors({});
 
-    // web3forms fields
-    formData.append("access_key", "7343ba90-faf0-4bbb-bf11-6c235275c2ff");
-    formData.append("h-captcha-response", captchaToken);
+ // Prepare JSON payload for Web3Forms
+    const payload = {
+      access_key: "7343ba90-faf0-4bbb-bf11-6c235275c2ff",
+      name,
+      email,
+      message,
+      subject: "Eliana Jade - New form Submission",
+      "h-captcha-response": captchaToken,
+    };
 
     try {
       const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        body: formData,
-      }).then((res) => res.json());
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      }).then(res => res.json());
+
+      console.log("Web3Forms response:", res);
 
       if (res.success) {
         alert("Message sent successfully ✅");
@@ -67,8 +76,10 @@ function Contact() {
       }
     } catch (error) {
       console.error("Fetch error:", error);
+      alert("Network error ❌");
     }
   };
+
 
   return (
     <div id='#contact' className='w-full px-[12%] py-10 scroll-mt-20'>
