@@ -75,7 +75,7 @@ function Navbar() {
           <li><a href="#about" className='hover:text-gray-500 dark:hover:text-gray-300 transition'>About me</a></li>
           <li><a href="#service" className='hover:text-gray-500 dark:hover:text-gray-300 transition'>Services</a></li>
           <li><a href="#project" className='hover:text-gray-500 dark:hover:text-gray-300 transition'>Project</a></li>
-          <li><a href="# contact" className='hover:text-gray-500 dark:hover:text-gray-300 transition'>Contact me</a></li>
+          <li><a href="#contact" className='hover:text-gray-500 dark:hover:text-gray-300 transition'>Contact me</a></li>
 
         </ul>
         {/* togggle theme code here  */}
