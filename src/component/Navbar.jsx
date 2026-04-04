@@ -113,8 +113,8 @@ function Navbar() {
 
           <li><a href="#top" onClick={closeMenu}>Home</a></li>
           <li><a href="#about" onClick={closeMenu}>About me</a></li>
-          <li><a href="#services" onClick={closeMenu}>Services</a></li>
-          <li><a href="#work" onClick={closeMenu}>Project</a></li>
+          <li><a href="#service" onClick={closeMenu}>Services</a></li>
+          <li><a href="#project" onClick={closeMenu}>Project</a></li>
           <li><a href="#contact" onClick={closeMenu}>Contact me</a></li>
         </ul>
       </nav>

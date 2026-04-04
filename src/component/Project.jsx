@@ -34,7 +34,7 @@ function Project() {
 
     ]
     return (
-        <div className='w-full px-[12%] py-10 scroll-mt-20'>
+        <div id='project' className='w-full px-[12%] py-10 scroll-mt-20'>
             <p className='text-center mb-2 text-lg font-Ovo'>My Portfolio</p>
             <h1 className='text-5xl text-center font-Ovo'>My Latest Project</h1>
             <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>Welcome to my web development portfolio! Explore a collection of projects showcasing my expertise in front-end development.</p>
