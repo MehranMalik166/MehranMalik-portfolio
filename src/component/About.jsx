@@ -20,10 +20,10 @@ function About() {
             name: 'Languages',
             icon1: '/code-icon.png',
             icon2: '/code-icon-dark.png',
-            description: 'HTML, CSS, Tailwind CSS, JavaScript, React, Git - Github'
+            description: 'HTML, CSS, Tailwind CSS, JavaScript, React, and WordPress,'
         },
           {
-            name: 'Eduction',
+            name: 'Education',
             icon1: '/edu-icon.png',
             icon2: '/edu-icon-dark.png',
             description: 'Diploma in COMPUTER Science'

@@ -104,7 +104,7 @@ function Navbar() {
 
         </div>
         {/* ------------------ Mobile Responsive navbar Panel -------------------- */}
-        <ul ref={sideMenuRef} className='felx md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 font-Ovo dark:bg-darkHover dark:text-white '>
+        <ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 font-Ovo dark:bg-darkHover dark:text-white '>
 
           <div onClick={closeMenu} className='absolute right-6 top-6'>
             <img src="https://eliana.prebuiltui.com/assets/close-black.png" alt="" className='w-5 cursor-pointer dark:hidden' />

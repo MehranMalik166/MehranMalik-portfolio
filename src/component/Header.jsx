@@ -18,7 +18,7 @@ text-white flex items-center gap-2 hover:bg-slate-100/70 transition-all duration
                     <img src="https://eliana.prebuiltui.com/assets/right-arrow-white.png" alt="" className='w-5' />
                 </a>
                 <a
-    href="/MehranMalik.pdf"
+    href="/Mehran-Resume.pdf"
     target="_blank"
     rel="noopener noreferrer"
     download
