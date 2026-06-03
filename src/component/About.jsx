@@ -20,7 +20,7 @@ function About() {
             name: 'Languages',
             icon1: '/code-icon.png',
             icon2: '/code-icon-dark.png',
-            description: 'HTML, CSS, Tailwind CSS, JavaScript, React, and WordPress,'
+            description: 'HTML, CSS, Tailwind CSS, JavaScript, React, Python and WordPress,'
         },
           {
             name: 'Education',
