@@ -18,7 +18,7 @@ function About() {
       icon1: "/code-icon.png",
       icon2: "/code-icon-dark.png",
       description:
-        "HTML, CSS, Tailwind CSS, JavaScript, React JS, TypeScript, Python(Basic) and WordPress,",
+        "HTML, CSS, Tailwind CSS, JavaScript, React-JS, TypeScript, Python(Basic) and WordPress"
     },
     {
       name: "Education",
