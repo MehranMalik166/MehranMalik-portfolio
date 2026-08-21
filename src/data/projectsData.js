@@ -1,0 +1,113 @@
+export const projects = [
+  // 💼 Internship / Company Work
+  {
+    id: 1,
+    name: "Candidate Portal",
+    company: "Lynxperio Internship",
+    category: "company",
+    status: "Live",
+    featured: true, // 🔥 home page pe dikhega
+    img: "/candidate-portalImg.png",
+    img2: "/candidate-portalImg.png",
+    description:
+      "Candidate management portal built during internship at Lynxperio.",
+    link: "https://lynxperio.com/portal/index.html",
+  },
+  {
+    id: 2,
+    name: "3D OBJ Model Viewer",
+    company: "AMX Innovation",
+    category: "company",
+    status: "GitHub",
+    featured: true,
+    img: "/obj-3d-viewerImg.png",
+    img2: "/obj-3d-viewerImg.png",
+    description: "3D model viewer for OBJ files, built at AMX Innovation.",
+    link: "https://github.com/MehranMalik166/3d-obj-model-viewer",
+  },
+  {
+    id: 3,
+    name: "AMX Loop",
+    company: "AMX Innovation",
+    category: "company",
+    status: "Private",
+    featured: false,
+    img: "/coming-soon.png",
+    img2: "/coming-soon.png",
+    description: "Internal tool built during work at AMX Innovation.",
+    link: "#", // private, koi link nahi
+  },
+  {
+    id: 4,
+    name: "BBMP Drone GIS",
+    company: "AMX Innovation",
+    category: "company",
+    status: "Private",
+    featured: false,
+    img: "/coming-soon.png",
+    img2: "/coming-soon.png",
+    description: "GIS-based drone data project for BBMP, built at AMX Innovation.",
+    link: "#",
+  },
+
+  // 🚀 Personal Projects
+  {
+    id: 5,
+    name: "GreenCycle Hub",
+    category: "personal",
+    status: "GitHub",
+    featured: false,
+    img: "/coming-soon.png",
+    img2: "/coming-soon.png",
+    description: "Personal project focused on sustainability and recycling awareness.",
+    link: "https://github.com/your-repo",
+  },
+  {
+    id: 6,
+    name: "Currency Converter",
+    category: "personal",
+    status: "Live",
+    featured: true,
+    img: "/currencyImg.png",
+    img2: "/currencyImg2.png",
+    description:
+      "Currency Converter with history & dark/light mode using JS & Tailwind CSS.",
+    link: "https://currency-convertor-mehran.netlify.app",
+  },
+  {
+    id: 7,
+    name: "Weather App",
+    category: "personal",
+    status: "Live",
+    featured: true,
+    img: "/weatherImg.png",
+    img2: "/weatherDarkImg.png",
+    description:
+      "Responsive weather app with live updates, built using JavaScript & Tailwind CSS.",
+    link: "https://weather-app-malik.netlify.app/",
+  },
+  {
+    id: 8,
+    name: "Eid Card Generator",
+    category: "personal",
+    status: "Live",
+    featured: false,
+    img: "/eidcardImg.png",
+    img2: "/eidcardImg.png",
+    description:
+      "Generate personalized Eid cards with live preview using JS, HTML & CSS.",
+    link: "https://eidcardgeneratormehranmalik.netlify.app/",
+  },
+  {
+    id: 9,
+    name: "Luxury Haven",
+    category: "personal",
+    status: "Live",
+    featured: false,
+    img: "/luxaryImg2.png",
+    img2: "/luxaryImg2.png",
+    description:
+      "Luxury Haven: Interactive hotel management UI built with JavaScript, HTML & Tailwind CSS.",
+    link: "https://radiant-sopapillas-b4d9ee.netlify.app/",
+  },
+];

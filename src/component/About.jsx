@@ -18,20 +18,20 @@ function About() {
       icon1: "/code-icon.png",
       icon2: "/code-icon-dark.png",
       description:
-        "HTML, CSS, Tailwind CSS, JavaScript, React-JS, TypeScript, Python(Basic) and WordPress"
+        "HTML, CSS, Tailwind CSS, JavaScript, React.JS, TypeScript, Python(Basic) and WordPress"
     },
     {
       name: "Education",
       icon1: "/edu-icon.png",
       icon2: "/edu-icon-dark.png",
       description:
-        "B.Tech in Artificial Intelligence & Machine Learning — Pursuing | Diploma in Computer Science — Completed ",
+      "B.Tech — Artificial Intelligence & Machine Learning (Pursuing) | Diploma — Computer Science (Completed)"
     },
     {
       name: "Projects",
       icon1: "/project-icon.png",
       icon2: "/project-icon-dark.png",
-      description: "BUILT more Than 10 Projects",
+      description: "Built and developed 10+ Projects",
     },
   ];
   return (
@@ -65,10 +65,10 @@ function About() {
           {/* right section */}
           <div id="right" className="flex-1">
             <p className="mb-10 max-w-2xl font-Ovo">
-              I am a passionate Frontend Developer fresher who loves solving
-              problems through clean and efficient code. I am enthusiastic about
-              learning, taking challenges, and contributing to projects that
-              make a difference.
+      I’m a Frontend Developer focused on modern, responsive web applications.
+Experienced in building clean UIs, reusable components, and interactive features.
+Skilled in API integration, dashboards, and real-world development.
+Focused on clean code, performance, and seamless user experiences. 
             </p>
             <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
               {data.map((data) => {

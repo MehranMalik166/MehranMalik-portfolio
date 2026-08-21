@@ -7,7 +7,7 @@ function Header() {
             <img src={profile} alt="" className='rounded-full w-40 h-40 mt-16' />
             <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>Hello! I'm Mehran Malik </h3>
             <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>FrontEnd Developer based in INDIA. </h1>
-            <p className='max-w-2xl mx-auto font-Ovo'>I am a Frontend Developer from Burharnpur, INDIA and passionate about building modern, responsive, and user-friendly web applications using React.js, JavaScript, and Tailwind CSS.</p>
+            <p className='max-w-2xl mx-auto font-Ovo'>I am a Frontend Developer from Burharnpur, INDIA and passionate about building modern, responsive, and user-friendly web applications using React.js, JavaScript, TypeScript and Tailwind CSS.</p>
 
             <div className='flex flex-col sm:flex-row text-lg gap-5 py-5 '>
                 <a href="#contact" className="px-10 py-2.5 border rounded-full 
