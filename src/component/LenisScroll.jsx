@@ -12,6 +12,8 @@ export default function LenisScroll() {
             },
         });
 
+        window.lenis = lenis; // 👈 ye line add karo
+
         const raf = (time) => {
             lenis.raf(time);
             requestAnimationFrame(raf);
@@ -21,6 +23,7 @@ export default function LenisScroll() {
 
         return () => {
             lenis.destroy();
+            window.lenis = null; // 👈 cleanup mein bhi add karo
         };
     }, []);
 

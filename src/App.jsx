@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import './App.css'
 import Navbar from './component/Navbar'
 import Header from './component/Header'
@@ -10,10 +10,15 @@ import ProjectsPage from './pages/Project'
 import Contact from './component/Contact'
 import Footer from './component/Footer'
 import Experience from './component/Experience'
+import ScrollToTop from './component/ScrollToTop'
 
 function App() {
+   const location = useLocation()
+  const isProjectsPage = location.pathname === '/projects'
+
   return (
     <>
+      <ScrollToTop />
       <LenisScroll />
       <Navbar />
       <Routes>

@@ -15,7 +15,7 @@ function Footer() {
     <div className='w-max flex items-center gap-2 mx-auto'>
       <img src="https://eliana.prebuiltui.com/assets/mail_icon.png" alt="" className="w-5 dark:hidden" />
       <img src="https://eliana.prebuiltui.com/assets/mail_icon_dark.png" alt="" className="w-5 hidden dark:block" />
-      <a href="mailto:contact@prebuiltui.com">contact@prebuiltui.com</a>
+      <a href="mailto:mmalik32997@gmail.com">mmalik32997@gmail.com</a>
     </div>
   </div>
 
